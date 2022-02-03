@@ -17,6 +17,13 @@
   margin-right: 8px;
 }
 
+.link-avatar > img {
+  width: 50% !important;
+  height: 50% !important;
+  border-radius: 0 !important;
+  margin-right: 8px;
+}
+
 .device-guide {
   background-color: #f9fafd;
   padding: 10px;
@@ -65,4 +72,8 @@
 /* Handle on hover */
 .scroll-container::-webkit-scrollbar-thumb:hover {
   background: #b4c1da;
+}
+
+.float-left {
+  float: left;
 }

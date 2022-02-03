@@ -9,7 +9,7 @@ function NotificationDate({ day, month }) {
         fontSize: 22,
         textAlign: 'center',
         color: 'grey',
-        background: '#fbfbfe',
+        background: '#f8f8fd',
         padding: '8px',
         borderRadius: '5px'
       }}>
