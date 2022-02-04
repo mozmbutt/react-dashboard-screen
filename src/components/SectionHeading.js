@@ -28,7 +28,7 @@ function SectionHeading({ heading, subheading, count }) {
       </Box>
 
       {
-        count ? 
+        count ?
           <Box sx={{
             fontWeight: 'bold',
             fontSize: 14,
@@ -39,8 +39,8 @@ function SectionHeading({ heading, subheading, count }) {
           }}>
             {count} new
           </Box>
-        :
-        ''
+          :
+          ''
       }
 
     </Box >

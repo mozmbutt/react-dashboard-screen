@@ -7,42 +7,78 @@ import Notifications from '@material-ui/icons/Notifications';
 import EventAvailableIcon from '@material-ui/icons/EventAvailable';
 import Grid from '@material-ui/core/Grid';
 import { Avatar } from "@material-ui/core";
+import { Link, Outlet } from "react-router-dom";
 
 function Navbar() {
   return (
-    <AppBar position="static" style={{
-      background: 'transparent',
-      boxShadow: 'none',
-      color: 'black'
-    }}>
-      <Toolbar>
-        <Grid container justifyContent="space-between">
-          <Grid item>
-            <Typography variant="h4" style={{
-              fontWeight: '800'
-            }}>
-              Home
-            </Typography>
-          </Grid>
+    <>
+      <AppBar position="static" style={{
+        background: 'transparent',
+        boxShadow: 'none',
+        color: 'black'
+      }}>
+        <Toolbar>
+          <Grid container justifyContent="space-between">
+            <Link className="nav-item" to={'/'}>
+              <Grid item>
+                <Typography variant="h4" style={{
+                  fontWeight: '800'
+                }}>
+                  Public Home
+                </Typography>
+              </Grid>
+            </Link>
+            
+            <Link className="nav-item" to={'/expert/guide'}>
+              <Grid item>
+                <Typography variant="h4" style={{
+                  fontWeight: '800'
+                }}>
+                  Expert Guide
+                </Typography>
+              </Grid>
+            </Link>
 
-          <Grid item>
-            <IconButton
-              size="medium"
-              edge="end"
-            >
-              <Notifications />
-            </IconButton>
+            <Link className="nav-item" to={'/company/dashboard'}>
+              <Grid item>
+                <Typography variant="h4" style={{
+                  fontWeight: '800'
+                }}>
+                  Company Dashboard
+                </Typography>
+              </Grid>
+            </Link>
 
-            <IconButton
-              size="medium"
-              edge="end"
-            >
-              <Avatar alt="Hi!" src="/google-calendar-icon.png" />
-            </IconButton>
+            <Link className="nav-item" to={'/admin/admin-view'}>
+              <Grid item>
+                <Typography variant="h4" style={{
+                  fontWeight: '800'
+                }}>
+                  Some Admin View
+                </Typography>
+              </Grid>
+            </Link>
+
+            <Grid item>
+              <IconButton
+                size="medium"
+                edge="end"
+              >
+                <Notifications />
+              </IconButton>
+
+              <IconButton
+                size="medium"
+                edge="end"
+              >
+                <Avatar alt="Hi!" src="/google-calendar-icon.png" />
+              </IconButton>
+            </Grid>
           </Grid>
-        </Grid>
-      </Toolbar>
-    </AppBar >
+        </Toolbar>
+      </AppBar >
+      <Outlet />
+    </>
   )
 }
 

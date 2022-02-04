@@ -36,7 +36,7 @@ function NotificationContent({ username, cohort_name, credits, status }) {
           <a className="float-left" href="#">{cohort_name} </a>
           <a className="float-left" style={{
             marginTop: '-8px'
-          }} href="#"><Avatar alt="link!" src="static/goToLink.png" className="link-avatar" /> </a>
+          }} href="#"><Avatar alt="link!" src="/static/goToLink.png" className="link-avatar" /> </a>
         </span>
       </Box>
 

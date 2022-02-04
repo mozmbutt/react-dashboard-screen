@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Box, Card, Divider, Button, Grid } from "@material-ui/core"
+import { Container, Grid } from "@material-ui/core"
 import Wallet from "./Wallet";
 import Enrollments from "./Enrollments";
 import History from "./History";

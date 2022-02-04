@@ -33,7 +33,7 @@ function History() {
 
         <Grid container
           spacing={4}
-          flexDirection="row"
+          // flexDirection="row"
           wrap="nowrap"
           alignItems="center"
           style={{
@@ -50,7 +50,7 @@ function History() {
 
         <Grid container
           spacing={4}
-          flexDirection="row"
+          // flexDirection="row"
           wrap="nowrap"
           alignItems="center"
           style={{
@@ -67,7 +67,7 @@ function History() {
 
         <Grid container
           spacing={4}
-          flexDirection="row"
+          // flexDirection="row"
           wrap="nowrap"
           alignItems="center"
           style={{
@@ -86,7 +86,7 @@ function History() {
 
         <Grid container
           spacing={4}
-          flexDirection="row"
+          // flexDirection="row"
           wrap="nowrap"
           alignItems="center"
           style={{
@@ -103,7 +103,7 @@ function History() {
 
         <Grid container
           spacing={4}
-          flexDirection="row"
+          // flexDirection="row"
           wrap="nowrap"
           alignItems="center"
           style={{
@@ -120,7 +120,7 @@ function History() {
 
         <Grid container
           spacing={4}
-          flexDirection="row"
+          // flexDirection="row"
           wrap="nowrap"
           alignItems="center"
           style={{

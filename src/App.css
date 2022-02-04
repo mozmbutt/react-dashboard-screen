@@ -77,3 +77,8 @@
 .float-left {
   float: left;
 }
+
+.nav-item {
+  text-decoration: none;
+  color: black;
+}

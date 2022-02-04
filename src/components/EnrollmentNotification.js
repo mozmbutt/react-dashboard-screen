@@ -13,7 +13,7 @@ function EnrollmentNotification({username, cohort_name, credits, status, day, mo
     }}>
       <Grid container
         spacing={4}
-        flexDirection="row"
+        // flexDirection="row"
         wrap="nowrap"
         alignItems="center"
         style={{
@@ -33,7 +33,7 @@ function EnrollmentNotification({username, cohort_name, credits, status, day, mo
       <div style={{
         textAlign: 'center'
       }}>
-        <Divider variant="midum" style={{ marginBottom: '10px', width: '95%' }} />
+        <Divider variant="fullWidth" style={{ marginBottom: '10px', width: '95%' }} />
         <Button variant="outlined" size="large" color="primary" startIcon={<CheckCircleOutlineIcon />}>
           Approve
         </Button>

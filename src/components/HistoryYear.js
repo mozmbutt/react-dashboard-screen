@@ -14,7 +14,7 @@ function HistoryYear({ year }) {
         {year}
       </span>
 
-      <Divider variant="large" style={{ marginBottom: '10px' }} />
+      <Divider variant="fullWidth" style={{ marginBottom: '10px' }} />
     </div>
   )
 }

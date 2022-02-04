@@ -33,17 +33,17 @@ function Enrollments() {
           username={'Bill Parker'}
           status={'wants to attend'}
           cohort_name={'INVESTING IN NETWORK EFFECTS'}
-          credits={'800'} 
+          credits={'800'}
           day={'02'}
-          month={'DEC'}/>
+          month={'DEC'} />
 
         <EnrollmentNotification
           username={'David John'}
           status={'wants to attend'}
           cohort_name={'THE ECONOMICS OF DIGITAL PLATFORMS'}
-          credits={'800'} 
+          credits={'800'}
           day={'19'}
-          month={'NOV'}/>
+          month={'NOV'} />
 
       </Container>
     </Container >
